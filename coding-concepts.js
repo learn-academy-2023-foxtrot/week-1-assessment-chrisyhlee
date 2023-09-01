@@ -8,17 +8,17 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: ["tangerine", "magenta", "lilac", "daffodil", "indigo"]
+// b) Verify and explain: The output was 5. This is because the .push method returns the new length of the array after the element is pushed into the array.
 
 // --------------------1) What will this log?
 
 const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
-// a) Your answer:
+// a) Your answer: 
 // b) Verify and explain:
 
 // --------------------2) What will this log?

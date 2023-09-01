@@ -10,9 +10,9 @@ Type your initials here to confirm you read the instructions:
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: A conditional statement is code that specifies conditions which evaluate to true or false, then executes its code block if the condition evaluated to true.
 
-Researched answer:
+Researched answer: In JavaScript, a conditional statement is defined by the "if" keyword. If the condition evaluates to false, nothing will happen.
 
 1. What is git? What is the difference between git and Github?
 
