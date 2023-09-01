@@ -20,6 +20,24 @@ const fruit4 = "kiwi"
 // Expected outcome: "cherry"
 
 // Pseudo code:
+// input: 2 strings
+// output: the string with the most characters
+// process: use .length to compare lengths of each string
+// return the string with more characters
+
+const moreCharacters = (str1, str2) => {
+  if(str1.length > str2.length){
+    return str1
+  } else if(str1.length < str2.length) {
+    return str2
+  } else {
+    return "The strings are equal in length."
+  }
+}
+
+console.log(moreCharacters(fruit1, fruit2))
+console.log(moreCharacters(fruit3, fruit4))
+
 
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 
